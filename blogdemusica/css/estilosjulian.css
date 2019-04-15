@@ -1,0 +1,81 @@
+body{background-color:#9009CF}
+
+header{ width: 100%; height:100%;}
+
+.logo {
+        float: left;
+        display: block;
+        width: 75%;
+        height:100%;
+        margin: 10px 10px;
+    }
+.redes-sociales {
+    float: right;
+    display: block;
+    flex-direction: row;
+    margin: 10px 10px;
+    width: 34%;
+    text-align: center;
+  }
+  .social{
+    float: right;
+width: 10%;
+margin: 70px 2px;
+height: 100%;
+text-align: center;
+  }
+
+.social:hover{
+  transition: background  1s;
+  animation: socilanimi 2s;
+}
+
+@-webkit-keyframes socilanimi{
+  from {transform: rotate(10deg);
+  border: 2px ;
+  box-shadow: 2px 2px #82c3a6;
+        } to width:0 }
+
+  .menus {
+    font-size: 2em;
+  }
+  .fotouno{
+    width: 100%;
+    font-size: 50px;
+  }
+  .foto{
+    width: 100%;
+    height: 100%;
+    padding: 10px 10px;
+  }
+.comment-icon{
+    font-size: 50px;
+}
+
+@media screen and (max-width:900px)
+{
+.logo {
+  width: 100%;
+  height:100%;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+.redes-sociales {
+  width: 100%;
+  text-align: center;
+  margin: -50px 80px;
+}
+.informaci{
+    padding: 200px 10px;
+    margin-top: 24% !important;
+}
+.foto{
+    margin-top: 20px;
+}
+.col-lg-3{
+    margin-top: 20px;
+}
+.elment{
+margin-top: 24% !important;
+}
+}
